@@ -1,0 +1,144 @@
+body{
+  background-color: #1f1f3d;
+}
+/* Reset and Global Styles */
+.containr{
+   padding: 60px 0;
+    color: black;
+    background-color: #135e36;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #1f1f3d;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Section with Background Image */
+  header {
+    background: url('background-image.jpg') no-repeat center center/cover;
+    color: #f4f4f9;
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #1f1f3d;
+    color: #f4f4f9;
+  }
+  
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    margin-bottom: 20px;
+    border: 3px solid #17634b;
+  }
+  
+  #about h2 {
+    color: #135e36;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 60px 0;
+    background-color: #97a9a9;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+  }
+  
+  .skills-list li {
+    padding: 80px 0;
+    background-color: #08eff3;
+    display: inline-block;
+    background: #188578;
+    color: #f4f4f9;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 80px 0;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  
+  #resume .btn {
+    color: #f4f4f9;
+    background: #08eff3;
+    padding: 1px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #1f1f3d;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #9f9ff7;
+    color: #f4f4f9;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #f4f4f9;
+    border: 1px solid #e85d75;
+    color: #15cdea;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    color: #f4f4f9;
+    background: #e85d75;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1f1f3d;
+    color: #f4f4f9;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
